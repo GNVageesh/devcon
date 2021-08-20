@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Navbar = () => {
 	const toggleMenu = () => {
@@ -24,58 +25,52 @@ const Navbar = () => {
 				</div>
 				<div className="flex md:hidden">
 					<button id="hamburger" onClick={() => toggleMenu()}>
-						<img
+						<Image
 							className="toggle block"
 							src="/images/menu.png"
-							width="40"
-							height="40"
+							width={40}
+							height={40}
 						/>
-						<img
+						<Image
 							className="toggle hidden"
 							src="/images/cancel.png"
-							width="40"
-							height="40"
+							width={40}
+							height={40}
 						/>
 					</button>
 				</div>
 				<div className="toggle hidden w-full md:w-auto md:flex text-center text-bold mt-5 md:mt-0">
-					<a
-						href="#"
-						className="block md:inline-block text-black hover:text-white hover:bg-blue-500 rounded-3xl px-3 py-3"
-					>
-						Home
-					</a>
-					<a
-						href="#"
-						className="block md:inline-block text-black hover:text-white hover:bg-blue-500 rounded-3xl px-3 py-3 "
-					>
-						QnA?
-					</a>
-					<a
-						href="#"
-						className="block md:inline-block text-black hover:text-white hover:bg-blue-500 rounded-3xl px-3 py-3 "
-					>
-						Games
-					</a>
-					<a
-						href="#"
-						className="block md:inline-block text-black hover:text-white hover:bg-blue-500 rounded-3xl px-3 py-3 "
-					>
-						Jobs
-					</a>
-					<a
-						href="#"
-						className="block md:inline-block text-black hover:text-white hover:bg-blue-500 rounded-3xl px-3 py-3 "
-					>
-						Contact
-					</a>
+					<Link href="#">
+						<a className="block md:inline-block text-black hover:text-white hover:bg-blue-500 rounded-3xl px-3 py-3">
+							Home
+						</a>
+					</Link>
+					<Link href="#">
+						<a className="block md:inline-block text-black hover:text-white hover:bg-blue-500 rounded-3xl px-3 py-3">
+							QnA?
+						</a>
+					</Link>
+					<Link href="#">
+						<a className="block md:inline-block text-black hover:text-white hover:bg-blue-500 rounded-3xl px-3 py-3">
+							Games
+						</a>
+					</Link>
+					<Link href="#">
+						<a className="block md:inline-block text-black hover:text-white hover:bg-blue-500 rounded-3xl px-3 py-3">
+							Jobs
+						</a>
+					</Link>
+					<Link href="#">
+						<a className="block md:inline-block text-black hover:text-white hover:bg-blue-500 rounded-3xl px-3 py-3">
+							Contact
+						</a>
+					</Link>
 				</div>
-				<a
-					href="#"
-					className="toggle hidden md:flex w-full md:w-auto px-4 py-2 text-center bg-green-600 hover:bg-blue-500 text-white md:rounded"
-				>
-					Login
-				</a>
+				<Link href="#">
+					<a className="toggle hidden md:flex w-full md:w-auto px-4 py-2 text-center bg-green-600 hover:bg-blue-500 text-white md:rounded">
+						Login
+					</a>
+				</Link>
 			</nav>
 		</div>
 	);
