@@ -13,23 +13,23 @@ export default function Home() {
 				/>
 			</Head>
 			<Navbar />
-			<div className="m-6 flex justify-center">
+			<div className="m-6 justify-center">
 				<div>
-					<section>
+					<section className="flex justify-center">
 						<div className="grid grid-cols-2 items-center">
 							<div>
-								<h1 className="text-6xl font-megrim">
+								<h1 className="text-9xl font-megrim">
 									Dev
 									<span className="font-bold text-green-500">
 										Con
 									</span>
 								</h1>
-								<p>
+								<p className="mt-2 px-4 py-2">
 									A One Stop Solution To Your Programming
-									Doubt
+									Career
 								</p>
-								<div>
-									<button className="bg-blue-500 text-white rounded-2xl text-xl px-6 py-3 mt-6">
+								<div className="px-4">
+									<button className="hover:animate-pulse bg-blue-500 text-white rounded-2xl text-xl px-6 py-3 mt-6">
 										Get Started
 									</button>
 								</div>
@@ -46,35 +46,65 @@ export default function Home() {
 
 					<section>
 						<div>
-							<div className="flex">
-								<div className="border-4 border-green-500 rounded-3xl m-3 text-center px-3 py-8">
-									<h1 className="text-3xl border-b-4 border-green-500 -mt-4">
+							<div className="flex m-10">
+								<div className="hover:animate-wiggle border-4 border-green-500 rounded-3xl m-3 text-center ">
+									<h1 className="text-3xl border-b-4 border-green-500 p-2">
 										What is DevCon?
 									</h1>
-									<p>
+									<p className="mt-2 px-4 py-2">
 										DevCon is a Heaven for programmers. It
 										let's you solve all your programming
-										questions
+										questions in moments. With the very big
+										DevCon Community, you will get your
+										solution in many ways, which are
+										verified and the perfect solution
+										definition.
 									</p>
 								</div>
-								<div className="border-4 border-green-500 rounded-3xl m-3 text-center px-3 py-8">
-									<h1 className="text-3xl border-b-4 border-green-500 -mt-4">
-										What is DevCon?
+								<div className="hover:animate-wiggle border-4 border-green-500 rounded-3xl m-3 text-center ">
+									<h1 className="text-3xl border-b-4 border-green-500 p-2">
+										How will DevCon Help Me?
 									</h1>
-									<p>
-										DevCon is a Heaven for programmers. It
-										let's you solve all your programming
-										questions
+									<p className="mt-2 px-4 py-2">
+										With the vast community of developer
+										around you in DevCon you will get
+										verified answers to your queris. Apart
+										from that, the games feature let's learn
+										touch typing and many more cool stuff
+										along with interactive quizzes. Also
+										with the Jobs features you can find your
+										dream job easily and find that company's
+										stats
 									</p>
 								</div>
-								<div className="border-4 border-green-500 rounded-3xl m-3 text-center px-3 py-8">
-									<h1 className="text-3xl border-b-4 border-green-500 -mt-4">
-										What is DevCon?
+								<div className="hover:animate-wiggle border-4 border-green-500 rounded-3xl m-3 text-center ">
+									<h1 className="text-3xl border-b-4 border-green-500 p-2">
+										Is DevCon Free?
 									</h1>
-									<p>
-										DevCon is a Heaven for programmers. It
-										let's you solve all your programming
-										questions
+									<p className="mt-2 px-4 py-2">
+										Well, DevCon is built for developer who
+										will develope new stuffs better than
+										their previous works. So making it a
+										paid feature doesn't add meaning to the
+										website. Which means DevCon is
+										absolutely{" "}
+										<span className="font-bold">free</span>{" "}
+										for everyone.
+									</p>
+								</div>
+								<div className="hover:animate-wiggle border-4 border-green-500 rounded-3xl m-3 text-center ">
+									<h1 className="text-3xl border-b-4 border-green-500 p-2">
+										For whom is DevCon
+									</h1>
+									<p className="mt-2 px-4 py-2">
+										DevCon is for all those developers out
+										there, who have a revolutionary idea in
+										there brains, but stuck at some point
+										which is not letting them complete the
+										plan. And mainly built for all those
+										beginners who dream to get into big tech
+										compnanies out there, and arent sure
+										where to start from
 									</p>
 								</div>
 							</div>
