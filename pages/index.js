@@ -11,6 +11,10 @@ export default function Home() {
 					href="https://fonts.googleapis.com/css?family=Megrim"
 					rel="stylesheet"
 				/>
+				<meta
+					name="google-site-verification"
+					content="w5AEpKTK4j7WT2iTr-uW4B__Q29_Vxk27xneiA4XahY"
+				/>
 			</Head>
 			<Navbar />
 			<div className="m-6 justify-center">
